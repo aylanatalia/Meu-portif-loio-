@@ -5,6 +5,7 @@
 
     --cor--texto: #464646;
     --cor--fundo: #FFFFE0;
+    --cor--fundosecundaria:#FFFACD;
 }
 
 *{
@@ -31,12 +32,18 @@ body{
     font-weight: 700;
 }
 
-.cabecalho_abas{
+.cabecalho_abas a {
+    text-decoration: none;
     font-family: var(--fonte--principal);
     color: var(--cor--texto);
     font-size: 15px;
     font-weight: 500;
-    text-decoration: none;
+}
+
+
+.cabecalho_abas{
+    display: flex;
+    gap: 32px;
 }
 
 .conteudo_apresentacao{
@@ -66,16 +73,352 @@ body{
     color: var(--cor--texto);
 }
 
-.conteudo_apresentacao_texto_links{
-    font-family: var(--cor--texto);
+.conteudo_apresentacao_texto_links a {
+    font-family: var(--fonte--principal);
     font-weight: 500;
     font-size: 14px;
-    text-decoration: none;
     color: var(--cor--texto);
+    text-decoration: none;
+}
+
+.conteudo_apresentacao_texto_links{
     display: flex;
     gap: 32px;
 }
 
 .conteudo_apresentacao_foto{
     width: 10%;
+}
+
+.conteudo_sobremim{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10% 0% 10%;
+    gap: 16px;
+}
+
+.conteudo_sobremim_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--cor--texto);
+}
+
+.conteudo_sobremim_texto{
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor--texto);
+}
+
+.conteudo_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 5%;
+}
+
+.conteudo_skills_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--cor--texto);
+    text-align: center;
+}
+
+.conteudo_skills_habilidades{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.conteudo_skills_habilidades_html5{
+    background-color: var(--cor--fundosecundaria);
+    width: 150px;
+    height: 150px;
+}
+
+.conteudo_skills_habilidades_html5_imagem{
+    margin-top: 94px;
+    margin-left: 16px;
+}
+
+.conteudo_skills_habilidades_html5_nome{
+    margin-left: 16px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.conteudo_skills_habilidades_javascript{
+    background-color: var(--cor--fundosecundaria);
+    width: 150px;
+    height: 150px;
+}
+
+.conteudo_skills_habilidades_javascript_imagem{
+    margin-top: 94px;
+    margin-left: 16px;
+}
+
+.conteudo_skills_habilidades_javascript_nome{
+    margin-left: 16px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.conteudo_skills_habilidades_css{
+    background-color: var(--cor--fundosecundaria);
+    width: 150px;
+    height: 150px;
+}
+
+.conteudo_skills_habilidades_css_imagem{
+    margin-top: 94px;
+    margin-left: 16px;
+}
+
+.conteudo_skills_habilidades_css_nome{
+    margin-left: 16px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.conteudo_hobbies{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 5%;
+}
+
+.conteudo_hobbies_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--cor--texto);
+    text-align: center;
+}
+
+.conteudo_hobbies_tipos{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.conteudo_hobbies_tipo_volei{
+    background-color: var(--cor--fundosecundaria);
+    width: 150px;
+    height: 150px;    
+}
+
+.conteudo_hobbies_tipo_volei_imagem{
+    margin-top: 94px;
+    margin-left: 16px;   
+}
+
+.conteudo_hobbies_tipo_volei_nome{
+    margin-left: 16px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 16px;   
+}
+
+.conteudo_hobbies_tipo_filmeseseries{
+    background-color: var(--cor--fundosecundaria);
+    width: 150px;
+    height: 150px;    
+}
+
+.conteudo_hobbies_tipo_filmeseseries_imagem{
+    margin-top: 94px;
+    margin-left: 16px;   
+}
+
+.conteudo_hobbies_tipo_filmeseseries_nome{
+    margin-left: 16px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 16px;   
+}
+
+.conteudo_hobbies_tipo_musica{
+    background-color: var(--cor--fundosecundaria);
+    width: 150px;
+    height: 150px;    
+}
+
+.conteudo_hobbies_tipo_musica_imagem{
+    margin-top: 94px;
+    margin-left: 16px;   
+}
+
+.conteudo_hobbies_tipo_musica_nome{
+    margin-left: 16px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 16px;   
+}
+
+.conteudo_hobbies_tipo_livro{
+    background-color: var(--cor--fundosecundaria);
+    width: 150px;
+    height: 150px;    
+}
+
+.conteudo_hobbies_tipo_livro_imagem{
+    margin-top: 94px;
+    margin-left: 16px;   
+}
+
+.conteudo_hobbies_tipo_livro_nome{
+    margin-left: 16px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 16px;   
+}
+
+.conteudo_hobbies_tipo_cozinhar{
+    background-color: var(--cor--fundosecundaria);
+    width: 150px;
+    height: 150px;    
+}
+
+.conteudo_hobbies_tipo_cozinhar_imagem{
+    margin-top: 94px;
+    margin-left: 16px;   
+}
+
+.conteudo_hobbies_tipo_cozinhar_nome{
+    margin-left: 16px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 16px;   
+}
+
+.conteudo_formacao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 5%;
+}
+
+.conteudo_formacao_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--cor--texto);
+    text-align: center;
+}
+
+.conteudo_formacao_cursos{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.conteudo_formacao_cursos_uenp{
+    background-color: var(--cor--fundosecundaria);
+    width: 268px;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 2%;
+}
+
+.conteudo_formacao_cursos_uenp_imagem{
+    width: 192px;
+    height: auto;
+}
+
+.conteudo_formacao_cursos_uenp_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor--texto);
+}
+
+.conteudo_formacao_cursos_uenp_texto{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor--texto);
+}
+
+.conteudo_formacao_cursos_unicesumar{
+    background-color: var(--cor--fundosecundaria);
+    width: 268px;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 2%;
+}
+
+.conteudo_formacao_cursos_unicesumar_imagem{
+    width: 192px;
+    height: auto;  
+}
+
+.conteudo_formacao_cursos_unicesumar_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor--texto);
+}
+
+.conteudo_formacao_cursos_unicesumar_texto{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor--texto);
+}
+
+.conteudo_formacao_cursos_alura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--cor--fundosecundaria);
+    width: 300px;
+    height: 300px;
+    gap: 16px;
+    padding-left: 2%;
+}
+
+.conteudo_formacao_cursos_alura_imagem{
+    width: 192px;
+    height: auto;
+}
+
+.conteudo_formacao_cursos_alura_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor--texto);
+}
+
+.conteudo_formacao_cursos_alura_texto{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor--texto);   
+}
+
+.conteudo_projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 5%;
+}
+
+.conteudo_projetos_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--cor--texto);
+    text-align: center;
 }
