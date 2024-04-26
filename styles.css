@@ -5,6 +5,8 @@
 
     --cor--texto: #464646;
     --cor--fundo: #FFFFE0;
+    --cor--botao: #FFEFD5;
+    --cor--borda: #FF7F50	;
     --cor--fundosecundaria:#FFFACD;
 }
 
@@ -28,7 +30,7 @@ body{
 .cabecalho_titulo{
     font-family: var(--fonte--principal);
     color: var(--cor--texto);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -36,32 +38,32 @@ body{
     text-decoration: none;
     font-family: var(--fonte--principal);
     color: var(--cor--texto);
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 
 .cabecalho_abas{
     display: flex;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .conteudo_apresentacao{
     padding: 2% 10% 0% 10%;
     display: flex;
     align-items: center;
-    gap: 17px;
+    gap: 1.1rem;
 }
 
 .conteudo_apresentacao_texto{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .conteudo_apresentacao_texto_titulo{
     font-family: var(--fonte--principal);
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 700;
     color: var(--cor--texto );
 }
@@ -69,21 +71,21 @@ body{
 .conteudo_apresentacao_texto_resumo{
     font-family: var(--fonte--principal);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--cor--texto);
 }
 
 .conteudo_apresentacao_texto_links a {
     font-family: var(--fonte--principal);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--cor--texto);
     text-decoration: none;
 }
 
 .conteudo_apresentacao_texto_links{
     display: flex;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .conteudo_apresentacao_foto{
@@ -94,34 +96,34 @@ body{
     display: flex;
     flex-direction: column;
     padding: 5% 10% 0% 10%;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .conteudo_sobremim_titulo{
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: var(--cor--texto);
 }
 
 .conteudo_sobremim_texto{
     font-family: var(--fonte--principal);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--cor--texto);
 }
 
 .conteudo_skills{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
     padding-top: 5%;
 }
 
 .conteudo_skills_titulo{
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: var(--cor--texto);
     text-align: center;
 }
@@ -129,74 +131,74 @@ body{
 .conteudo_skills_habilidades{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .conteudo_skills_habilidades_html5{
     background-color: var(--cor--fundosecundaria);
-    width: 150px;
-    height: 150px;
+    width: 9.4rem;
+    height: 9.4rem;
 }
 
 .conteudo_skills_habilidades_html5_imagem{
-    margin-top: 94px;
-    margin-left: 16px;
+    margin-top: 5.9rem;
+    margin-left: 1rem;
 }
 
 .conteudo_skills_habilidades_html5_nome{
-    margin-left: 16px;
+    margin-left: 1rem;
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .conteudo_skills_habilidades_javascript{
     background-color: var(--cor--fundosecundaria);
-    width: 150px;
-    height: 150px;
+    width: 9.4rem;
+    height: 9.4rem;
 }
 
 .conteudo_skills_habilidades_javascript_imagem{
-    margin-top: 94px;
-    margin-left: 16px;
+    margin-top: 5.9rem;
+    margin-left: 1rem;
 }
 
 .conteudo_skills_habilidades_javascript_nome{
-    margin-left: 16px;
+    margin-left: 1rem;
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .conteudo_skills_habilidades_css{
     background-color: var(--cor--fundosecundaria);
-    width: 150px;
-    height: 150px;
+    width: 9.4rem;
+    height: 9.4rem;
 }
 
 .conteudo_skills_habilidades_css_imagem{
-    margin-top: 94px;
-    margin-left: 16px;
+    margin-top: 5.9rem;
+    margin-left: 1rem;
 }
 
 .conteudo_skills_habilidades_css_nome{
-    margin-left: 16px;
+    margin-left: 1rem;
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .conteudo_hobbies{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
     padding-top: 5%;
 }
 
 .conteudo_hobbies_titulo{
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: var(--cor--texto);
     text-align: center;
 }
@@ -204,110 +206,110 @@ body{
 .conteudo_hobbies_tipos{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .conteudo_hobbies_tipo_volei{
     background-color: var(--cor--fundosecundaria);
-    width: 150px;
-    height: 150px;    
+    width: 9.4rem;
+    height: 9.4rem;    
 }
 
 .conteudo_hobbies_tipo_volei_imagem{
-    margin-top: 94px;
-    margin-left: 16px;   
+    margin-top: 5.9rem;
+    margin-left: 1rem;   
 }
 
 .conteudo_hobbies_tipo_volei_nome{
-    margin-left: 16px;
+    margin-left: 1rem;
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 16px;   
+    font-size: 1rem;   
 }
 
 .conteudo_hobbies_tipo_filmeseseries{
     background-color: var(--cor--fundosecundaria);
-    width: 150px;
-    height: 150px;    
+    width: 9.4rem;
+    height: 9.4rem;    
 }
 
 .conteudo_hobbies_tipo_filmeseseries_imagem{
-    margin-top: 94px;
-    margin-left: 16px;   
+    margin-top: 5.9rem;
+    margin-left: 1rem;   
 }
 
 .conteudo_hobbies_tipo_filmeseseries_nome{
-    margin-left: 16px;
+    margin-left: 1rem;
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 16px;   
+    font-size: 1rem;   
 }
 
 .conteudo_hobbies_tipo_musica{
     background-color: var(--cor--fundosecundaria);
-    width: 150px;
-    height: 150px;    
+    width: 9.4rem;
+    height: 9.4rem;    
 }
 
 .conteudo_hobbies_tipo_musica_imagem{
-    margin-top: 94px;
-    margin-left: 16px;   
+    margin-top: 5.9rem;
+    margin-left: 1rem;   
 }
 
 .conteudo_hobbies_tipo_musica_nome{
-    margin-left: 16px;
+    margin-left: 1rem;
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 16px;   
+    font-size: 1rem;   
 }
 
 .conteudo_hobbies_tipo_livro{
     background-color: var(--cor--fundosecundaria);
-    width: 150px;
-    height: 150px;    
+    width: 9.4rem;
+    height: 9.4rem;    
 }
 
 .conteudo_hobbies_tipo_livro_imagem{
-    margin-top: 94px;
-    margin-left: 16px;   
+    margin-top: 5.9rem;
+    margin-left: 1rem;   
 }
 
 .conteudo_hobbies_tipo_livro_nome{
-    margin-left: 16px;
+    margin-left: 1rem;
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 16px;   
+    font-size: 1rem;   
 }
 
 .conteudo_hobbies_tipo_cozinhar{
     background-color: var(--cor--fundosecundaria);
-    width: 150px;
-    height: 150px;    
+    width: 9.4rem;
+    height: 9.4rem;    
 }
 
 .conteudo_hobbies_tipo_cozinhar_imagem{
-    margin-top: 94px;
-    margin-left: 16px;   
+    margin-top: 5.9rem;
+    margin-left: 1rem;   
 }
 
 .conteudo_hobbies_tipo_cozinhar_nome{
-    margin-left: 16px;
+    margin-left: 1rem;
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 16px;   
+    font-size: 1rem;   
 }
 
 .conteudo_formacao{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
     padding-top: 5%;
 }
 
 .conteudo_formacao_titulo{
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: var(--cor--texto);
     text-align: center;
 }
@@ -315,66 +317,66 @@ body{
 .conteudo_formacao_cursos{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .conteudo_formacao_cursos_uenp{
     background-color: var(--cor--fundosecundaria);
-    width: 268px;
-    height: 247px;
+    width: 16.75rem;
+    height: 15.44rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
     padding: 2%;
 }
 
 .conteudo_formacao_cursos_uenp_imagem{
-    width: 192px;
+    width: 12rem;
     height: auto;
 }
 
 .conteudo_formacao_cursos_uenp_titulo{
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.37rem;
     color: var(--cor--texto);
 }
 
 .conteudo_formacao_cursos_uenp_texto{
     font-family: var(--fonte--principal);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--cor--texto);
 }
 
 .conteudo_formacao_cursos_unicesumar{
     background-color: var(--cor--fundosecundaria);
-    width: 268px;
-    height: 247px;
+    width: 16.75rem;
+    height: 15.44rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
     padding: 2%;
 }
 
 .conteudo_formacao_cursos_unicesumar_imagem{
-    width: 192px;
+    width: 12rem;
     height: auto;  
 }
 
 .conteudo_formacao_cursos_unicesumar_titulo{
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.38rem;
     color: var(--cor--texto);
 }
 
 .conteudo_formacao_cursos_unicesumar_texto{
     font-family: var(--fonte--principal);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--cor--texto);
 }
 
@@ -383,42 +385,204 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: var(--cor--fundosecundaria);
-    width: 300px;
-    height: 300px;
-    gap: 16px;
+    width: 18.75rem;
+    height: 18.75rem;
+    gap: 1rem;
     padding-left: 2%;
 }
 
 .conteudo_formacao_cursos_alura_imagem{
-    width: 192px;
+    width: 12rem;
     height: auto;
 }
 
 .conteudo_formacao_cursos_alura_titulo{
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
     color: var(--cor--texto);
 }
 
 .conteudo_formacao_cursos_alura_texto{
     font-family: var(--fonte--principal);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--cor--texto);   
 }
 
 .conteudo_projetos{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
     padding-top: 5%;
+    padding-left: 9rem;
+    padding-right: 9rem;
 }
 
 .conteudo_projetos_titulo{
     font-family: var(--fonte--principal);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: var(--cor--texto);
     text-align: center;
+}
+
+.conteudo_projetos_itens{
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+.conteudo_projetos_itens_decodificador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.conteudo_projetos_itens_decodificador_imagem{
+    width: 40rem;
+    height: 20rem;
+}
+
+.conteudo_projetos_itens_decodificador_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_projetos_itens_decodificador_texto_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_projetos_itens_decodificador_texto_descricao{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_projetos_itens_decodificador_texto_links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_projetos_itens_decodificador_texto_links_repositorio{
+    border: 2px solid var(--cor--borda);
+    background-color: var(--cor--botao);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--borda);
+}
+
+.conteudo_projetos_itens_decodificador_texto_links_demo{
+    border: 2px solid var(--cor--borda);
+    background-color: var(--cor--botao);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--borda);
+}
+
+.conteudo_projetos_itens_aluramidi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.conteudo_projetos_itens_aluramidi_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_projetos_itens_aluramidi_texto_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_projetos_itens_aluramidi_texto_descricao{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_projetos_itens_aluramidi_texto_links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_projetos_itens_aluramidi_texto_links_repositorio{
+    border: 2px solid var(--cor--borda);
+    background-color: var(--cor--botao);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--borda);
+}
+
+.conteudo_projetos_itens_aluramidi_texto_links_demo{
+    border: 2px solid var(--cor--borda);
+    background-color: var(--cor--botao);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--borda);
+}
+
+.conteudo_projetos_itens_aluramidi_imagem{
+    width: 40rem;
+    height: 20rem;
+}
+
+.conteudo_contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    gap: 2rem;
+}
+
+.conteudo_contatos_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_contatos_texto{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor--texto);
+    
 }
