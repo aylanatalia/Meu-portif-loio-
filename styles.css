@@ -563,6 +563,136 @@ body{
     height: 20rem;
 }
 
+.conteudo_projetos_itens_paginaweb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.conteudo_projetos_itens_paginaweb_imagem{
+    width: 50rem;
+    height: 20rem;
+}
+
+.conteudo_projetos_itens_paginaweb_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_projetos_itens_paginaweb_texto_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_projetos_itens_paginaweb_texto_descricao{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_projetos_itens_paginaweb_texto_links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_projetos_itens_paginaweb_texto_links_repositorio{
+    border: 2px solid var(--cor--borda);
+    background-color: var(--cor--botao);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--borda);
+}
+
+.conteudo_projetos_itens_paginaweb_texto_links_demo{
+    border: 2px solid var(--cor--borda);
+    background-color: var(--cor--botao);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--borda);
+}
+
+.conteudo_projetos_itens_aluraplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.conteudo_projetos_itens_aluraplay_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_projetos_itens_aluraplay_texto_titulo{
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_projetos_itens_aluraplay_texto_descricao{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor--texto);
+}
+
+.conteudo_projetos_itens_aluraplay_texto_links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_projetos_itens_aluraplay_texto_links_repositorio{
+    border: 2px solid var(--cor--borda);
+    background-color: var(--cor--botao);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--borda);
+}
+
+.conteudo_projetos_itens_aluraplay_texto_links_demo{
+    border: 2px solid var(--cor--borda);
+    background-color: var(--cor--botao);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--borda);
+}
+
+.conteudo_projetos_itens_aluraplay_imagem{
+    width: 40rem;
+    height: 20rem;
+}
+
 .conteudo_contatos{
     display: flex;
     flex-direction: column;
