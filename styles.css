@@ -850,6 +850,23 @@ form input:focus{
     background-color: var(--cor--borda);
 }
 
+.erro-hidden{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    color: var(--cor--borda);
+    font-size: 1rem;
+}
+
+section.span{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    color: var(--cor--borda);
+    font-size: 1rem;
+}
+
 .conteudo_rodape{
     font-family: var(--fonte--principal);
     font-weight: 500;

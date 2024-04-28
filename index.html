@@ -167,21 +167,26 @@
                 <div class="conteudo_contatos_formulario_nome">
                     <label class="conteudo_contatos_formulario_nome_titulo" for="nome">Nome:</label>
                     <input type="text" name="Nome" id="nome" placeholder="Digite seu nome aqui" class="entrada conteudo_contatos_formulario_nome_input" required>
+                    <span class="erro_nome erro-hidden">Este campo é obrigatório e deve ter no máximo 50 caracteres</span>
                 </div>
                 <div class="conteudo_contatos_formulario_email">
                     <label class="conteudo_contatos_formulario_email_titulo" for="email">E-mail:</label>
-                    <input type="email" name="E-mail" id="emial" placeholder="Digite um e-mail válido" class="entrada conteudo_contatos_formulario_email_input" required>
+                    <input type="email" name="E-mail" id="email" placeholder="Digite um e-mail válido" class="entrada conteudo_contatos_formulario_email_input" required>
+                    <span class="erro_email erro-hidden">E-mail invalido</span>
                 </div>
                 <div class="conteudo_contatos_formulario_assunto">
                     <label class="conteudo_contatos_formulario_assunto_titulo" for="assunto">Assunto:</label>
                     <input type="text" name="Assunto" id="assunto" placeholder="Assunto" class="entrada conteudo_contatos_formulario_assunto_input" required>
+                    <span class="erro_assunto erro-hidden">Este campo é obrigatório e deve ter no máximo 50 caracteres</span>
                 </div>
                 <div class="conteudo_contatos_formulario_texto">
                     <label class="conteudo_contatos_formulario_texto_titulo" for="mensagem">Mensagem:</label>
                     <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="entrada conteudo_contatos_formulario_texto_mensagem" placeholder="Digite sua mensagem" required></textarea>
+                    <span class="erro_mensagem erro-hidden">Este campo é obrigatório e deve ter no máximo 300 caracteres</span>
                 </div>
-                <button type="submit" class="conteudo_contatos_formulario_botao" id="enviar">Enviar mensagem</button>
+                <button type="submit" class="conteudo_contatos_formulario_botao" id="enviar" disabled>Enviar mensagem</button>
             </form>
+            
         </section>
 
         <footer class="conteudo_rodape">
@@ -189,6 +194,7 @@
             <p class="conteudo_rodape_ano">2024</p>
         </footer>
     </main>
-    <script src="./main.js"></script>   
+    <script src="./main.js"></script>
+    <script src="server.js"></script>
 </body>
 </html>_
