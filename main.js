@@ -39,7 +39,7 @@ formulario.addEventListener('submit', function(event){
             event.preventDefault();
             emailErro.classList.remove('erro-hidden');
         }else{
-             fetch('URL_DO_SERVIDOR', {
+             fetch('https://meu-portifolio-psi-seven.vercel.app/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
