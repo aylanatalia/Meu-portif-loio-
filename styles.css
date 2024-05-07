@@ -832,6 +832,18 @@ form input:focus{
     border-radius: 2rem;
 }
 
+.conteudo_contatos_formulario_botao:disabled{
+    background-color: var(--cor--fundo);
+    color: var(--cor--texto);
+    border:  solid var(--cor--fundosecundaria);
+}
+
+.conteudo_contatos_formulario_botao:disabled:hover{
+    background-color: var(--cor--fundo);
+    color: var(--cor--texto);
+    border:  solid var(--cor--fundosecundaria);
+}
+
 .conteudo_contatos_formulario_botao{
     font-family: var(--fonte--principal);
     font-weight: 500;
@@ -860,6 +872,13 @@ form input:focus{
     font-size: 1rem;
 }
 
+.erro_mensagem{
+    font-family: var(--fonte--principal);
+    font-weight: 500;
+    color: var(--cor--borda);
+    font-size: 1 rem;
+}
+
 section.span{
     font-family: var(--fonte--principal);
     font-weight: 500;
@@ -875,3 +894,4 @@ section.span{
     color: var(--cor--texto);
     padding: 1.4rem 20rem;
 }
+
